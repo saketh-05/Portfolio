@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon server/index.js",
     "build": "vite build",
+    "preview": "vite preview",
     "start": "echo \"Error: no start specified\" && exit 1",
     "test": "echo \"Error: no test specified\" && exit 1",
     "check": "tsc",
