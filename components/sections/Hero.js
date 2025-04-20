@@ -46,10 +46,10 @@ export default function Hero() {
 
           <div className="flex flex-wrap gap-4">
             <Button size="lg" asChild>
-              <a href="#projects">View My Work</a>
+              <a href="#projects" className='p-3 rounded-sm' >View My Work</a>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <a href="/my-resume-apr5.pdf" download>
+              <a href="/my-resume-apr5.pdf" className='p-2 rounded-sm' download>
                 Resume <Download className="ml-2 h-4 w-4" />
               </a>
             </Button>

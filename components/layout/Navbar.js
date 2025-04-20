@@ -94,7 +94,7 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-          <Button asChild className="mt-4 p-2">
+          <Button asChild className="mt-4">
             <Link href="#contact" onClick={() => setIsOpen(false)}>
               Let's Talk
             </Link>
